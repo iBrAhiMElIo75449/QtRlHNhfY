@@ -90,7 +90,6 @@ module.exports = function(grunt) {
               // place files inline example
               {
                 pattern: '<script src="../dist/bundle.js"></script>',
-                replacement: '<script src="../bundle.min.js"></script>'
               },
               {
                 pattern: '<script src="../libs/rzslider.js"></script>',
