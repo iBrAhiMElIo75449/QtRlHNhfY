@@ -1,0 +1,27 @@
+coverage:
+  precision: 2
+  round: down
+  range: "70...100"
+  status:
+    patch:
+      default:
+        target: 90%
+    project:
+      default:
+        target: 90%
+
+ignore:
+  - "portal/tests/*.py"
+  - "portal/tests/**/*.py"
+  - "example_project/*.py"
+  - "example_project/**/*.py"
+  - "portal_test_settings.py"
+  - "setup.py"
+  - "cfl_common/setup.py"
+  - "cfl_common/common/apps.py"
+  - "portal/helpers/ratelimit.py"
+  - "portal/autoconfig.py"
+  - "cfl_common/common/app_settings.py"
+  - "cfl_common/common/csp_config.py"
+
+comment: false
